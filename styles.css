@@ -16,6 +16,7 @@ body{
     background-color: rgb(77, 75, 122);
     font-size: 16px;
     font-family: 'Red Hat Display', sans-serif;
+    height: 40vw;
 
 }
 
@@ -24,6 +25,9 @@ body{
     background-color: white;
     border-radius: 20px;
     overflow: hidden;
+    margin: 50px auto;
+    line-height: 20px;
+   
     
 }
 
@@ -40,6 +44,10 @@ body{
 
 .container{
     padding: 30px;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    text-align: center;
 }
 
 .container > *{
@@ -78,4 +86,55 @@ button{
 
 .cancel:hover{
     opacity: 0.5;
+}
+
+.mobile{
+    width: 20%;
+    border-radius: 10px;
+}
+
+.shoes{
+    width:20%;
+    border-radius: 10px;
+    
+}
+.item1{
+    background-color: rgb(245, 247, 255);
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+.item2{
+    background-color: rgb(245, 247, 255);
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.item1 a{
+    font-size: 13px;
+    font-weight: 900;
+    font-family: 'Red Hat Display', sans-serif;
+    color: purple;
+    text-decoration: none;
+
+}
+.item2 a{
+    font-size: 13px;
+    font-weight: 900;
+    font-family: 'Red Hat Display', sans-serif;
+    color: purple;
+    text-decoration: none;
+
 }
